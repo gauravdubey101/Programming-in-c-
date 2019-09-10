@@ -27,11 +27,14 @@ int factorial(int n){
 	return n*smalloutput;
 }
 int main(){
+	int t;
 	int n;
+	
 	cin >>n;
 	int output;
 	output = factorial(n);
 	cout <<output <<endl;
+
 	}
 	
 	
