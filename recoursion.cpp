@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-/*int factorial(int n){
+int factorial(int n){
 	cout << n <<endl;
 	if(n ==0){
 		return 1;
@@ -12,14 +12,15 @@ int main(){
 	int n;
 	cin >>n;
 	int output = factorial(n);
-	cout << output <<endl;
-*/	
+	cout << output;
+}
+	
 	
 	
 	//demo
-int factorial(int n){
+/*int factorial(int n){
 
-	cout <<n <<endl;
+	//cout <<n <<endl;
 	if(n==0){
 		return 1;
 			}
@@ -43,7 +44,7 @@ int main(){
 	
 	
 	
-	
+*/	
 	
 	
 	
