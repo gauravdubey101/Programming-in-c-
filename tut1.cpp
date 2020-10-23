@@ -10,15 +10,15 @@ using namespace std;
 //		float salary;
 //	};
 			
-	struct employee{
+	typedef struct employee{
 		int eId;
 		char favChar;
 		float salary;
-	};
+	}ep;
 		
 	
 	int main(){
-		struct employee gaurav;
+		ep gaurav;
 		struct employee gaurav1;
 		struct employee gaurav2;
 		gaurav.eId=1;
