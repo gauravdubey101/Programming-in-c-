@@ -10,31 +10,48 @@ using namespace std;
 //		float salary;
 //	};
 			
-	typedef struct employee{
-		int eId;  //4 
-		char favChar; //1
-		float salary; //4
-	}ep;
-		
+//	typedef struct employee{
+//		int eId;  //4 
+//		char favChar; //1
+//		float salary; //4
+//	}ep;
+//		
 //in unioun only one data type can use at a time. 		
-	union money
-	{
-		int rice; //4 inly 4 bytes use for each data type
-		char favcar; //1
-		float pounds; //4
-		};
+//	union money
+//	{
+//		int rice; //4 inly 4 bytes use for each data type
+//		char favcar; //1
+//		float pounds; //4
+//		};
+
+
 		
 		
 		
 	
 	int main(){
-		ep gaurav;
-		union money m1;
-		m1.rice=344;
-		cout<<"rice is:"<<m1.rice;
+		
+		enum Meal{
+			Breakfast,lunch,dinner
+		};
+		cout<<Breakfast;
+		cout<<lunch;
+		cout<<dinner;
+		
+		
+		
+		/*unioun*/
+//		union money m1;
+//		m1.rice=344;
+//		cout<<"rice is:"<<m1.rice;
+
+
+
+
 		
 		
 		/* structure*/
+//		ep gaurav;
 //		struct employee gaurav1;
 //		struct employee gaurav2;
 //		gaurav.eId=1;
