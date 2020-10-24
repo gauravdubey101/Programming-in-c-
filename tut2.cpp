@@ -2,10 +2,14 @@
 //function prototype
 using namespace std;
 
-int sum(int a,int b){
-	int c = a+b;
-	return c;
-}
+//function prototype
+
+//type function-name(argument)
+ 
+//int sum(int a,int b);  //--> Acceptable
+//int sum(int a,b) //--> Not Acceptable
+int sum(int,int); //--> Acceptable
+
 int main(){
 	int num1,num2;
 	cout<<"enter the first value"<<endl;
@@ -19,4 +23,9 @@ int main(){
 	
 	return 0;
 	
+}
+
+int sum(int a,int b){
+	int c = a+b;
+	return c;
 }
